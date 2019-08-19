@@ -52,18 +52,27 @@ body{
     left: 2.5vw;
   }
 }
-
+.headerPlatesBox{
+  /* opacity: 0.1; */
+  transition: all 0.5s ease;
+  position: absolute;
+  top: 21.5vw;
+  left: 34vw;
+  background: #ff9100;
+  height: 5.4vw;
+  width: 33vw;
+}
 .headerPlates{
   position: absolute;
   width: 33.169vw;
-  top: 21.5vw;
-  left: 34vw;
+  transition: 1s;
+  opacity: 1;
 }
 
 
 .getStarted{
   position: absolute;
   top: 44vw;
-  left: 37vw;
+  left: 38vw;
   width: 22.168vw;
 }
