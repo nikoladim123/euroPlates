@@ -58,9 +58,17 @@ body{
   position: absolute;
   top: 21.7vw;
   left: 34vw;
-  background: #ff9100;
   height: 5.2vw;
   width: 33vw;
+}
+.orangeOverlay{
+  background: #ff9100;
+  /* width: 33vw; */
+  width: 0vw;
+  height: 5.2vw;
+  position: absolute;
+  transition: all 0.5s ease;
+  right: 0;
 }
 .headerPlates{
   position: absolute;
