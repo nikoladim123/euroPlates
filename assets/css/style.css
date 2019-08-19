@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  padding: 0
+}
+
+.wholePage{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+.wineDivSquare{
+  transform: rotate(45deg);
+  position: absolute;
+  border-radius: 1px;
+  background-color: rgba(255,213,69,0.5);
+  width: 4.75vw;
+  height: 4.75vw;
+  border: 0.596vw solid #4b3b16;
+  outline: 0.1482vw solid rgb(172,168,74);
+  margin-top: 43.477vw;
+  margin-left: 46.5%;
+}
+.wineTriangle{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border: 2.136vw solid transparent;
+  border-top: 2.136vw solid #ffd545;
+  transform: rotate(-45deg);
+  top: 2.272vw;
+  left: 2.272vw;
+  animation-name: wineTriangle;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+  /* top: 0.5vw; */
+  /* left: 0.5vw; */
+}
+@keyframes wineTriangle {
+  0%{
+    opacity: 1;
+    top: 1.272vw;
+    left: 1.272vw;
+  }
+  100%{
+    opacity: 0;
+    top: 2.5vw;
+    left: 2.5vw;
+  }
+}
+
+.headerPlates{
+  position: absolute;
+  width: 33.169vw;
+  top: 21.5vw;
+  left: 34vw;
+}
+
+
+.getStarted{
+  position: absolute;
+  top: 44vw;
+  left: 37vw;
+  width: 22.168vw;
+}
